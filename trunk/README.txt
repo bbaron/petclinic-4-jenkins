@@ -1,1 +1,1 @@
-Petclinic sample project to work with Jenkins CI
+Petclinic sample project to work with Jenkins CI.
