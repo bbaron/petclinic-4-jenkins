@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_example_petclinic_domain_Owner" items="${owners}" z="K4zhCfVRJgbxlfftVXh2NldteSQ=">
+        <table:table data="${owners}" id="l_com_example_petclinic_domain_Owner" path="/owners" z="z4Eu5QqH9F3R4ulLynOjxK4hYu4=">
+            <table:column id="c_com_example_petclinic_domain_Owner_firstName" property="firstName" z="Y7Rxm6kEO2EfLXVdx7MsnLy7Wxk="/>
+            <table:column id="c_com_example_petclinic_domain_Owner_lastName" property="lastName" z="IdHvDVanwWb6u41E7H9RY+wZ1jU="/>
+            <table:column id="c_com_example_petclinic_domain_Owner_address" property="address" z="aumC9pLpJggTfRirmE8kHB2TKFY="/>
+            <table:column id="c_com_example_petclinic_domain_Owner_city" property="city" z="m8zJ4wAAg8wZyfLBpxWQZpQPDUM="/>
+            <table:column id="c_com_example_petclinic_domain_Owner_telephone" property="telephone" z="SmP+h+Ta82KrJy7wysPXsvrI/Do="/>
+            <table:column id="c_com_example_petclinic_domain_Owner_homePage" property="homePage" z="1bpOhYYPzFnEASV2zrgXdkg09XQ="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,469 @@
+Apache Maven 3.0.3 (r1075438; 2011-02-28 12:31:09-0500)
+Maven home: /opt/maven
+Java version: 1.7.0_02, vendor: Oracle Corporation
+Java home: /opt/jvm/jdk1.7.0_02/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.0.0-16-generic", arch: "i386", family: "unix"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /opt/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/bbaron/.m2/settings.xml
+[DEBUG] Using local repository at /home/bbaron/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/bbaron/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.example.petclinic:web-tests:jar:0.1.0.BUILD-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.example.petclinic:web-tests:jar:0.1.0.BUILD-SNAPSHOT
+[DEBUG] Tasks:   [clean, process-test-resources]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building tests 0.1.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.example.petclinic:web-tests:0.1.0.BUILD-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [sonatype-oss-releases (https://oss.sonatype.org/content/repositories/releases, releases+snapshots), sonatype-oss-snapshots (https://oss.sonatype.org/content/repositories/snapshots, releases+snapshots), spring-maven-release (http://maven.springframework.org/release, releases+snapshots), spring-maven-milestone (http://maven.springframework.org/milestone, releases+snapshots), spring-roo-repository (http://spring-roo-repository.springsource.org/release, releases+snapshots), jboss-public-repository-group (https://repository.jboss.org/nexus/content/groups/public-jboss/, releases+snapshots), central (http://repo1.maven.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [jboss-public-repository-group (https://repository.jboss.org/nexus/content/groups/public-jboss/, releases+snapshots), spring-maven-release (http://maven.springframework.org/release, releases+snapshots), spring-maven-milestone (http://maven.springframework.org/milestone, releases+snapshots), spring-roo-repository (http://spring-roo-repository.springsource.org/release, releases+snapshots), sonatype-oss-releases (https://oss.sonatype.org/content/repositories/releases, releases+snapshots), sonatype-oss-snapshots (https://oss.sonatype.org/content/repositories/snapshots, releases+snapshots), central (http://repo1.maven.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString default-value="${maven.resources.escapeString}"/>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.4.3:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString default-value="${maven.resources.escapeString}"/>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources>${project.testResources}</resources>
+  <session default-value="${session}"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] com.example.petclinic:web-tests:jar:0.1.0.BUILD-SNAPSHOT
+[DEBUG]    org.seleniumhq.selenium:selenium-java:jar:2.19.0:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-android-driver:jar:2.19.0:compile
+[DEBUG]          org.seleniumhq.selenium:selenium-remote-driver:jar:2.19.0:compile
+[DEBUG]             cglib:cglib-nodep:jar:2.1_3:compile
+[DEBUG]             org.json:json:jar:20080701:compile
+[DEBUG]             com.google.guava:guava:jar:11.0.1:compile
+[DEBUG]                com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-chrome-driver:jar:2.19.0:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.19.0:compile
+[DEBUG]          org.seleniumhq.selenium:selenium-api:jar:2.19.0:compile
+[DEBUG]          net.sourceforge.htmlunit:htmlunit:jar:2.9:compile
+[DEBUG]             xalan:xalan:jar:2.7.1:compile
+[DEBUG]                xalan:serializer:jar:2.7.1:compile
+[DEBUG]             commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]             org.apache.httpcomponents:httpmime:jar:4.1.2:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.4:compile
+[DEBUG]             net.sourceforge.htmlunit:htmlunit-core-js:jar:2.9:compile
+[DEBUG]             xerces:xercesImpl:jar:2.9.1:compile
+[DEBUG]                xml-apis:xml-apis:jar:1.3.04:compile
+[DEBUG]             net.sourceforge.nekohtml:nekohtml:jar:1.9.15:compile
+[DEBUG]             net.sourceforge.cssparser:cssparser:jar:0.9.5:compile
+[DEBUG]                org.w3c.css:sac:jar:1.3:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.1.2:compile
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.1.2:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-firefox-driver:jar:2.19.0:compile
+[DEBUG]          commons-io:commons-io:jar:2.0.1:compile
+[DEBUG]          org.apache.commons:commons-exec:jar:1.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-ie-driver:jar:2.19.0:compile
+[DEBUG]          net.java.dev.jna:jna:jar:3.4.0:compile
+[DEBUG]          net.java.dev.jna:platform:jar:3.4.0:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-iphone-driver:jar:2.19.0:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-support:jar:2.19.0:compile
+[DEBUG]    junit:junit:jar:4.10:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.1:compile
+[DEBUG]    org.slf4j:slf4j-api:jar:1.6.4:compile
+[DEBUG]    org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+[DEBUG]    org.slf4j:slf4j-log4j12:jar:1.6.4:compile
+[DEBUG]    log4j:log4j:jar:1.2.16:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ web-tests ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.collection < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.version < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.artifact < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.graph < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.resolution < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1, parent: sun.misc.Launcher$AppClassLoader@18ad9a0]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/bbaron/projects/petclinic/ui/tests/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/bbaron/projects/petclinic/ui/tests/target/classes
+[DEBUG]   (f) reportDirectory = /home/bbaron/projects/petclinic/ui/tests/target/site
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/bbaron/projects/petclinic/ui/tests/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/bbaron/projects/petclinic/ui/tests/target
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/generated-sources/test-annotations
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/generated-sources
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/surefire
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/surefire-reports/TEST-com.example.petclinic.ui.tests.HomePageTest.xml
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/surefire-reports/com.example.petclinic.ui.tests.HomePageTest.txt
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/surefire-reports
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/test-classes/log4j.properties
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com/example/petclinic/ui/tests/HomePageTest.class
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com/example/petclinic/ui/tests/Selenium2Example.class
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com/example/petclinic/ui/tests/Selenium2Example$1.class
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com/example/petclinic/ui/tests
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com/example/petclinic/ui
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com/example/petclinic
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com/example
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/test-classes/com
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/test-classes/environment.properties
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/test-classes
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/classes/META-INF/maven/com.example.petclinic/web-tests/pom.properties
+[INFO] Deleting file /home/bbaron/projects/petclinic/ui/tests/target/classes/META-INF/maven/com.example.petclinic/web-tests/pom.xml
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/classes/META-INF/maven/com.example.petclinic/web-tests
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/classes/META-INF/maven/com.example.petclinic
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/classes/META-INF/maven
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/classes/META-INF
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target/classes
+[INFO] Deleting directory /home/bbaron/projects/petclinic/ui/tests/target
+[DEBUG] Skipping non-existing directory /home/bbaron/projects/petclinic/ui/tests/target/classes
+[DEBUG] Skipping non-existing directory /home/bbaron/projects/petclinic/ui/tests/target/test-classes
+[DEBUG] Skipping non-existing directory /home/bbaron/projects/petclinic/ui/tests/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ web-tests ---
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.4.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-4:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.4.3
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3, parent: sun.misc.Launcher$AppClassLoader@18ad9a0]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/bbaron/projects/petclinic/ui/tests/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.example.petclinic:web-tests:0.1.0.BUILD-SNAPSHOT @ /home/bbaron/projects/petclinic/ui/tests/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/bbaron/projects/petclinic/ui/tests/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@12b144
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.LESSOPEN=| /usr/bin/lesspipe %s, env._LXSESSION_PID=1569, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot Client Compiler, mysql.driverClassName=com.mysql.jdbc.Driver, maven.tomcat.url=http://localhost:9090/manager, os.name=Linux, sun.boot.class.path=/opt/jvm/jdk1.7.0_02/jre/lib/resources.jar:/opt/jvm/jdk1.7.0_02/jre/lib/rt.jar:/opt/jvm/jdk1.7.0_02/jre/lib/sunrsasign.jar:/opt/jvm/jdk1.7.0_02/jre/lib/jsse.jar:/opt/jvm/jdk1.7.0_02/jre/lib/jce.jar:/opt/jvm/jdk1.7.0_02/jre/lib/charsets.jar:/opt/jvm/jdk1.7.0_02/jre/classes, env.PWD=/home/bbaron/projects/petclinic/ui/tests, env.XDG_SESSION_COOKIE=54eb8a6221fee9d24eed0a7e0000000d-1330897866.648010-1120764640, jdbc.artifactId=mysql-connector-java, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=lxde-, java.runtime.version=1.7.0_02-b13, maven.tomcat.update=true, env.DEFAULTS_PATH=/usr/share/gconf/Lubuntu.default.path, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0.0, user.name=bbaron, env._=/usr/local/bin/mvn, tomcat.manager.url=http://localhost:9090/manager, env.USER=bbaron, env.HISTCONTROL=ignoreboth, env.SHELL=/bin/bash, env.DESKTOP_SESSION=Lubuntu, env.XDG_DATA_DIRS=/etc/xdg/lubuntu:/usr/share/Lubuntu:/usr/local/share/:/usr/share/:/usr/share:/usr/share/gdm:/var/lib/menu-xdg, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, jdbc.groupId=mysql, env.PATH=/opt/ant/bin:/usr/lib/libfm:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/cloudbees-sdk-0.7.4, env.XDG_CURRENT_DESKTOP=LXDE, user.language=en, sun.boot.library.path=/opt/jvm/jdk1.7.0_02/jre/lib/i386, classworlds.conf=/opt/maven/bin/m2.conf, java.version=1.7.0_02, user.timezone=America/New_York, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-4iQxJ5S1Fg,guid=85031b492873781e105aea590000004e, sun.arch.data.model=32, env.SSH_AGENT_PID=1602, mysql.password=admin, java.endorsed.dirs=/opt/jvm/jdk1.7.0_02/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=51.0, env.GDMSESSION=Lubuntu, tomcat.password=admin, user.country=US, env.GNOME_KEYRING_PID=1560, java.home=/opt/jvm/jdk1.7.0_02/jre, java.vm.info=mixed mode, env.LOGNAME=bbaron, os.version=3.0.0-16-generic, env.SAL_USE_VCLPLUGIN=gtk, maven.compiler.target=1.6, path.separator=:, java.vm.version=22.0-b10, env.BEES_HOME=/opt/cloudbees-sdk-0.7.4, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, mysql.username=root, env.JAVA_HOME=/opt/jvm/jdk7, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, tomcat.username=admin, user.home=/home/bbaron, env.OLDPWD=/home/bbaron/projects/petclinic/ui, java.specification.vendor=Oracle Corporation, env.M2_HOME=/opt/maven, env.WINDOWID=41943043, java.library.path=/usr/java/packages/lib/i386:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, java.vm.vendor=Oracle Corporation, maven.home=/opt/maven, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X -Dapp.test.url=foo clean process-test-resources, java.class.path=/opt/maven/boot/plexus-classworlds-2.4.jar, env.UBUNTU_MENUPROXY=libappmenu.so, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, slf4j.version=1.6.4, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/home/bbaron, env.ANT_HOME=/opt/ant, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.MAVEN_OPTS=-Xmx768m -XX:MaxPermSize=512M, env.SSH_AUTH_SOCK=/tmp/ssh-NzKIlJPx1569/agent.1569, maven.compiler.source=1.6, env.XDG_CONFIG_HOME=/home/bbaron/.config, os.arch=i386, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/opt/jvm/jdk1.7.0_02/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/bbaron/.Xauthority, user.dir=/home/bbaron/projects/petclinic/ui/tests, env.MANDATORY_PATH=/usr/share/gconf/Lubuntu.mandatory.path, env.GTK_MODULES=canberra-gtk-module:canberra-gtk-module, line.separator=
+, java.vm.name=Java HotSpot(TM) Client VM, env.COLORTERM=gnome-terminal, app.test.url=foo, env.ORBIT_SOCKETDIR=/tmp/orbit-bbaron, jdbc.version=5.1.18, env.USERNAME=bbaron, file.encoding=UTF-8, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/tmp/keyring-KMD6MS, env.XDG_CONFIG_DIRS=/etc/xdg/lubuntu/:/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/bbaron/projects/petclinic/ui/tests/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/bbaron/projects/petclinic/ui/tests/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ web-tests ---
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2, parent: sun.misc.Launcher$AppClassLoader@18ad9a0]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/bbaron/projects/petclinic/ui/tests
+[DEBUG]   (f) buildDirectory = /home/bbaron/projects/petclinic/ui/tests/target
+[DEBUG]   (f) classpathElements = [/home/bbaron/projects/petclinic/ui/tests/target/classes, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-java/2.19.0/selenium-java-2.19.0.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.19.0/selenium-android-driver-2.19.0.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.19.0/selenium-remote-driver-2.19.0.jar, /home/bbaron/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar, /home/bbaron/.m2/repository/org/json/json/20080701/json-20080701.jar, /home/bbaron/.m2/repository/com/google/guava/guava/11.0.1/guava-11.0.1.jar, /home/bbaron/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.19.0/selenium-chrome-driver-2.19.0.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.19.0/selenium-htmlunit-driver-2.19.0.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-api/2.19.0/selenium-api-2.19.0.jar, /home/bbaron/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar, /home/bbaron/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar, /home/bbaron/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar, /home/bbaron/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar, /home/bbaron/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar, /home/bbaron/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar, /home/bbaron/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar, /home/bbaron/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar, /home/bbaron/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar, /home/bbaron/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar, /home/bbaron/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar, /home/bbaron/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar, /home/bbaron/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar, /home/bbaron/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar, /home/bbaron/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar, /home/bbaron/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.19.0/selenium-firefox-driver-2.19.0.jar, /home/bbaron/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar, /home/bbaron/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.19.0/selenium-ie-driver-2.19.0.jar, /home/bbaron/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar, /home/bbaron/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.19.0/selenium-iphone-driver-2.19.0.jar, /home/bbaron/.m2/repository/org/seleniumhq/selenium/selenium-support/2.19.0/selenium-support-2.19.0.jar, /home/bbaron/.m2/repository/junit/junit/4.10/junit-4.10.jar, /home/bbaron/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar, /home/bbaron/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar, /home/bbaron/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar, /home/bbaron/.m2/repository/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar, /home/bbaron/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/bbaron/projects/petclinic/ui/tests/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/bbaron/projects/petclinic/ui/tests/target/generated-sources/annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/bbaron/projects/petclinic/ui/tests/target/classes
+[DEBUG]   (f) outputFileName = web-tests-0.1.0.BUILD-SNAPSHOT
+[DEBUG]   (f) projectArtifact = com.example.petclinic:web-tests:jar:0.1.0.BUILD-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@12b144
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.6
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.6
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ web-tests ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.4.3:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3, parent: sun.misc.Launcher$AppClassLoader@18ad9a0]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.4.3:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/bbaron/projects/petclinic/ui/tests/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.example.petclinic:web-tests:0.1.0.BUILD-SNAPSHOT @ /home/bbaron/projects/petclinic/ui/tests/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: /home/bbaron/projects/petclinic/ui/tests/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@12b144
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.LESSOPEN=| /usr/bin/lesspipe %s, env._LXSESSION_PID=1569, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot Client Compiler, mysql.driverClassName=com.mysql.jdbc.Driver, maven.tomcat.url=http://localhost:9090/manager, os.name=Linux, sun.boot.class.path=/opt/jvm/jdk1.7.0_02/jre/lib/resources.jar:/opt/jvm/jdk1.7.0_02/jre/lib/rt.jar:/opt/jvm/jdk1.7.0_02/jre/lib/sunrsasign.jar:/opt/jvm/jdk1.7.0_02/jre/lib/jsse.jar:/opt/jvm/jdk1.7.0_02/jre/lib/jce.jar:/opt/jvm/jdk1.7.0_02/jre/lib/charsets.jar:/opt/jvm/jdk1.7.0_02/jre/classes, env.PWD=/home/bbaron/projects/petclinic/ui/tests, env.XDG_SESSION_COOKIE=54eb8a6221fee9d24eed0a7e0000000d-1330897866.648010-1120764640, jdbc.artifactId=mysql-connector-java, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=lxde-, java.runtime.version=1.7.0_02-b13, maven.tomcat.update=true, env.DEFAULTS_PATH=/usr/share/gconf/Lubuntu.default.path, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0.0, user.name=bbaron, env._=/usr/local/bin/mvn, tomcat.manager.url=http://localhost:9090/manager, env.USER=bbaron, env.HISTCONTROL=ignoreboth, env.SHELL=/bin/bash, env.DESKTOP_SESSION=Lubuntu, env.XDG_DATA_DIRS=/etc/xdg/lubuntu:/usr/share/Lubuntu:/usr/local/share/:/usr/share/:/usr/share:/usr/share/gdm:/var/lib/menu-xdg, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, jdbc.groupId=mysql, env.PATH=/opt/ant/bin:/usr/lib/libfm:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/cloudbees-sdk-0.7.4, env.XDG_CURRENT_DESKTOP=LXDE, user.language=en, sun.boot.library.path=/opt/jvm/jdk1.7.0_02/jre/lib/i386, classworlds.conf=/opt/maven/bin/m2.conf, java.version=1.7.0_02, user.timezone=America/New_York, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-4iQxJ5S1Fg,guid=85031b492873781e105aea590000004e, sun.arch.data.model=32, env.SSH_AGENT_PID=1602, mysql.password=admin, java.endorsed.dirs=/opt/jvm/jdk1.7.0_02/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=51.0, env.GDMSESSION=Lubuntu, tomcat.password=admin, user.country=US, env.GNOME_KEYRING_PID=1560, java.home=/opt/jvm/jdk1.7.0_02/jre, java.vm.info=mixed mode, env.LOGNAME=bbaron, os.version=3.0.0-16-generic, env.SAL_USE_VCLPLUGIN=gtk, maven.compiler.target=1.6, path.separator=:, java.vm.version=22.0-b10, env.BEES_HOME=/opt/cloudbees-sdk-0.7.4, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, mysql.username=root, env.JAVA_HOME=/opt/jvm/jdk7, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, tomcat.username=admin, user.home=/home/bbaron, env.OLDPWD=/home/bbaron/projects/petclinic/ui, java.specification.vendor=Oracle Corporation, env.M2_HOME=/opt/maven, env.WINDOWID=41943043, java.library.path=/usr/java/packages/lib/i386:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, java.vm.vendor=Oracle Corporation, maven.home=/opt/maven, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X -Dapp.test.url=foo clean process-test-resources, java.class.path=/opt/maven/boot/plexus-classworlds-2.4.jar, env.UBUNTU_MENUPROXY=libappmenu.so, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, slf4j.version=1.6.4, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/home/bbaron, env.ANT_HOME=/opt/ant, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.MAVEN_OPTS=-Xmx768m -XX:MaxPermSize=512M, env.SSH_AUTH_SOCK=/tmp/ssh-NzKIlJPx1569/agent.1569, maven.compiler.source=1.6, env.XDG_CONFIG_HOME=/home/bbaron/.config, os.arch=i386, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/opt/jvm/jdk1.7.0_02/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/bbaron/.Xauthority, user.dir=/home/bbaron/projects/petclinic/ui/tests, env.MANDATORY_PATH=/usr/share/gconf/Lubuntu.mandatory.path, env.GTK_MODULES=canberra-gtk-module:canberra-gtk-module, line.separator=
+, java.vm.name=Java HotSpot(TM) Client VM, env.COLORTERM=gnome-terminal, app.test.url=foo, env.ORBIT_SOCKETDIR=/tmp/orbit-bbaron, jdbc.version=5.1.18, env.USERNAME=bbaron, file.encoding=UTF-8, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/tmp/keyring-KMD6MS, env.XDG_CONFIG_DIRS=/etc/xdg/lubuntu/:/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/bbaron/projects/petclinic/ui/tests/src/test/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 2 resources
+[DEBUG] file environment.properties has a filtered file extension
+[DEBUG] filering /home/bbaron/projects/petclinic/ui/tests/src/test/resources/environment.properties to /home/bbaron/projects/petclinic/ui/tests/target/test-classes/environment.properties
+[DEBUG] file log4j.properties has a filtered file extension
+[DEBUG] filering /home/bbaron/projects/petclinic/ui/tests/src/test/resources/log4j.properties to /home/bbaron/projects/petclinic/ui/tests/target/test-classes/log4j.properties
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.918s
+[INFO] Finished at: Mon Mar 05 08:35:33 EST 2012
+[INFO] Final Memory: 4M/15M
+[INFO] ------------------------------------------------------------------------

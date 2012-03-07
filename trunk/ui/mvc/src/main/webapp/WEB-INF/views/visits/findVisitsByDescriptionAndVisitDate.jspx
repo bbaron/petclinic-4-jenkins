@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByDescriptionAndVisitDate" id="ff_com_example_petclinic_domain_Visit" path="/visits" z="GzvOh0IUZ1lshmgnam6Pm9yco6U=">
+        <field:input disableFormBinding="true" field="description" id="f_com_example_petclinic_domain_Visit_description" max="255" required="true" z="ybW/kYO7ohVV372Xm3fgQkQVuuE="/>
+        <field:datetime dateTimePattern="${visit_visitdate_date_format}" disableFormBinding="true" field="visitDate" id="f_com_example_petclinic_domain_Visit_visitDate" required="true" z="3+eK/lb7f8RggLUURf+HyBnneiY="/>
+    </form:find>
+</div>
