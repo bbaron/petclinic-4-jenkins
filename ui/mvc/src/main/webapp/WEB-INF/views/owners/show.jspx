@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_example_petclinic_domain_Owner" object="${owner}" path="/owners" z="b4EAq+NTTnuxvc12U5So0d0+dc4=">
+        <field:display field="firstName" id="s_com_example_petclinic_domain_Owner_firstName" object="${owner}" z="+al/ywlwLQDIzsJ+X54sQQfwyNA="/>
+        <field:display field="lastName" id="s_com_example_petclinic_domain_Owner_lastName" object="${owner}" z="d+cbvM8eHWVUtlGB3Q4vJBFc5cw="/>
+        <field:display field="address" id="s_com_example_petclinic_domain_Owner_address" object="${owner}" z="2DvNszP7G73pn8g1NYGjyHASOuw="/>
+        <field:display field="city" id="s_com_example_petclinic_domain_Owner_city" object="${owner}" z="+alOtlQQZ3/ji2jFdMEW7p7tRfI="/>
+        <field:display field="telephone" id="s_com_example_petclinic_domain_Owner_telephone" object="${owner}" z="WzE95/s72S2ZekF/TH4Ozmyas3c="/>
+        <field:display field="homePage" id="s_com_example_petclinic_domain_Owner_homePage" object="${owner}" z="xFuVW5M8tKw8DT72E4j+DfnubBw="/>
+        <field:display field="email" id="s_com_example_petclinic_domain_Owner_email" object="${owner}" z="N+Rgyw33vnPGM6mKl/b7X4ZVm6s="/>
+        <field:display date="true" dateTimePattern="${owner_birthday_date_format}" field="birthDay" id="s_com_example_petclinic_domain_Owner_birthDay" object="${owner}" z="wb1XlyOlIWrwCJjxWtHZlWqezic="/>
+    </page:show>
+</div>
